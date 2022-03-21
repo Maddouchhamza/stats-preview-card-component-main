@@ -47,10 +47,11 @@ span{
 .statistics{
     display: flex;
     justify-content: space-between;
-    width: 320px;
+    width: 340px;
     margin-left: 4rem;
     margin-top: 4rem;
 }
+
 .num{
     font-family: "Inter";
     font-size: 25px;
@@ -64,10 +65,10 @@ span{
     letter-spacing: 2px;
 }
 
-
 .banner{
 }
 .banner>img{
     border-radius: 0px 10px 10px 0px;
     width: 550px;
+    filter: grayscale(100%) brightness(35%) sepia(70%) hue-rotate(-132deg) saturate(900%) contrast(0.86);
 }
